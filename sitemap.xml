@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://powerproservices.co.za/</loc>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/transformer-internal.jpeg</image:loc>
+      <image:title>Transformer maintenance</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/switchgear-termination.jpeg</image:loc>
+      <image:title>Switchgear cable terminations</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/db-panel-build.jpeg</image:loc>
+      <image:title>Distribution board panel build</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/panel-wiring.jpeg</image:loc>
+      <image:title>Panel wiring installation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/transformer-testing.jpeg</image:loc>
+      <image:title>Transformer testing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://powerproservices.co.za/images/mine-site-oil-purification.jpeg</image:loc>
+      <image:title>Mine site oil purification</image:title>
+    </image:image>
   </url>
 </urlset>

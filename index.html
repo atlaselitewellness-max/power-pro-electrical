@@ -27,7 +27,17 @@
   "telephone": "+27832795157",
   "email": "powerpro.co.za@gmail.com",
   "url": "https://powerproservices.co.za/",
-  "areaServed": "South Africa",
+  "areaServed": [
+    {"@type": "AdministrativeArea", "name": "Gauteng"},
+    {"@type": "AdministrativeArea", "name": "Mpumalanga"},
+    {"@type": "AdministrativeArea", "name": "North West"},
+    {"@type": "AdministrativeArea", "name": "Limpopo"},
+    {"@type": "AdministrativeArea", "name": "Northern Cape"},
+    {"@type": "AdministrativeArea", "name": "Free State"},
+    {"@type": "AdministrativeArea", "name": "KwaZulu-Natal"},
+    {"@type": "AdministrativeArea", "name": "Western Cape"},
+    {"@type": "AdministrativeArea", "name": "Eastern Cape"}
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -35,7 +45,59 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "description": "Qualified, trade-tested electricians specialising in HV/LV maintenance, transformer testing & refurbishment, switchgear installation, cable jointing, relay protection testing and mining/industrial electrical work. Nationwide coverage with 24/7 emergency call-outs."
+  "description": "Qualified, trade-tested electricians specialising in HV/LV maintenance, transformer testing & refurbishment, switchgear installation, cable jointing, relay protection testing and mining/industrial electrical work. Nationwide coverage with 24/7 emergency call-outs.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Electrical Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "HV & LV Equipment Maintenance"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transformer Testing & Refurbishment"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Switchgear Installation & Retrofitting"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cable Jointing & Fault Location"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Relay Testing & Protection"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "DB Board Wiring & Fault Finding"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Infrared Scanning"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mining & Industrial Electrical Services"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer 24/7 emergency electrical call-outs?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Electrical faults don't wait for business hours, so we take emergency call-outs any time, day or night, seven days a week, anywhere in South Africa."}
+    },
+    {
+      "@type": "Question",
+      "name": "What areas of South Africa do you cover?",
+      "acceptedAnswer": {"@type": "Answer", "text": "We work nationwide — Gauteng, Mpumalanga, North West, Limpopo, Northern Cape, Free State, KwaZulu-Natal, Western Cape and Eastern Cape — from single-site call-outs to multi-site industrial and mining contracts."}
+    },
+    {
+      "@type": "Question",
+      "name": "Are your electricians qualified and trade-tested?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Power Pro Electrical is built on qualified, trade-tested electricians with real HV/LV field experience, not just classroom theory."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work on mining sites, underground and surface?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. We have real underground and surface mining experience and work to the safety and technical standard those environments demand."}
+    },
+    {
+      "@type": "Question",
+      "name": "What voltage levels can you test and maintain?",
+      "acceptedAnswer": {"@type": "Answer", "text": "We carry out relay testing, secondary injection, transformer and switchgear work on systems up to 132kV, across HV and LV equipment."}
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get a written quote before work starts?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Always. You get a clear scope and a fair, written quote before any work begins — no inflated call-out games."}
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +118,8 @@
       <a href="#work">Our Work</a>
       <a href="#experience">Experience</a>
       <a href="#why">Why Us</a>
-      <a href="#coverage">Coverage</a>
+      <a href="#areas">Areas</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="header-actions">
@@ -266,6 +329,57 @@
       <div class="coverage-item">
         <h3>Fast, Straight Quoting</h3>
         <p>No inflated call-out games. You get a clear scope and a fair price before any work starts — so you can say yes with confidence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="areas" id="areas">
+    <div class="container">
+      <h2 class="section-title">Areas We Serve</h2>
+      <p class="section-lead">Nationwide coverage, with real experience on industrial and mining hubs across every province.</p>
+      <div class="grid areas-grid">
+        <div class="area-item"><h3>Gauteng</h3><p>Johannesburg, Pretoria, Ekurhuleni</p></div>
+        <div class="area-item"><h3>Mpumalanga</h3><p>eMalahleni (Witbank), Middelburg, Secunda</p></div>
+        <div class="area-item"><h3>North West</h3><p>Rustenburg, Klerksdorp</p></div>
+        <div class="area-item"><h3>Limpopo</h3><p>Polokwane, Mokopane, Steelpoort</p></div>
+        <div class="area-item"><h3>Northern Cape</h3><p>Kathu, Kuruman</p></div>
+        <div class="area-item"><h3>Free State</h3><p>Welkom, Bloemfontein</p></div>
+        <div class="area-item"><h3>KwaZulu-Natal</h3><p>Durban, Richards Bay</p></div>
+        <div class="area-item"><h3>Western &amp; Eastern Cape</h3><p>Cape Town, Gqeberha, East London</p></div>
+      </div>
+      <p class="experience-close">Don't see your town listed? We travel. If it's in South Africa, we can quote it.</p>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-lead">Straight answers to the questions we get asked most.</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Do you offer 24/7 emergency electrical call-outs?</summary>
+          <p>Yes. Electrical faults don't wait for business hours, so we take emergency call-outs any time, day or night, seven days a week, anywhere in South Africa.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What areas of South Africa do you cover?</summary>
+          <p>We work nationwide — from single-site call-outs to multi-site industrial and mining contracts, in every province.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are your electricians qualified and trade-tested?</summary>
+          <p>Yes. Power Pro Electrical is built on qualified, trade-tested electricians with real HV/LV field experience, not just classroom theory.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you work on mining sites, underground and surface?</summary>
+          <p>Yes. We have real underground and surface mining experience and work to the safety and technical standard those environments demand.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What voltage levels can you test and maintain?</summary>
+          <p>We carry out relay testing, secondary injection, transformer and switchgear work on systems up to 132kV, across HV and LV equipment.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will I get a written quote before work starts?</summary>
+          <p>Always. You get a clear scope and a fair, written quote before any work begins — no inflated call-out games.</p>
+        </details>
       </div>
     </div>
   </section>
