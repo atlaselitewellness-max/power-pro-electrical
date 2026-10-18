@@ -727,6 +727,19 @@ section { padding: 88px 0; }
 
 .footer-logo { width: 36px; height: 36px; margin-right: auto; }
 
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink-mute);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-social:hover { color: #fff; }
+
+.footer-social svg { width: 18px; height: 18px; }
+
 /* ---------- WhatsApp float ---------- */
 
 .whatsapp-float {
